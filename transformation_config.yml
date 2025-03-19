@@ -1,0 +1,14 @@
+
+input_file: input/input.xlsx
+
+output_file: outputs/output.csv
+
+transformations:
+
+  - action: insert
+    source: DocVersion
+    target: major_version__v
+
+  - action: constant
+    target: source
+    value: Migration

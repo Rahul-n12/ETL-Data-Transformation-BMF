@@ -1,13 +1,13 @@
-# Migration Specialist technical assessment
+# Migration Specialist technical Project
 
 ## Introduction
-This assessment simulates a normal day for a Migration Specialist. A customer needs to migrate their data from a source system into a target system. They don't know exactly how the data should be transformed to suit the new system, and it is our job to figure out how to transform their data so it fits the new structure.
+This project simulates a normal day for a Migration Specialist. A customer needs to migrate their data from a source system into a target system. They don't know exactly how the data should be transformed to suit the new system, and it is our job to figure out how to transform their data so it fits the new structure.
 
 They have already extracted their data from their source system into excel and transferred it to us (it is the data set `input/input.xslx`).
 
 For us to be able to load the data into the new system, we need to transform this to a table having a specific format and with columns following specific rules. Since we are experts in the system we are implementing, we know how the final data needs to look like to fit into the system (this is the file `outputs/solution.csv`).
 
-The goal of this assessment is to transform `input/input.xslx` into a file that matches `outputs/solution.csv`.
+The goal of this project is to transform `input/input.xslx` into a file that matches `outputs/solution.csv`.
 
 **The BASE Migration Framework**
 
